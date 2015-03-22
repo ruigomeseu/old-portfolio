@@ -181,6 +181,20 @@
 			<div class="hero-line"></div>
 			<div class="w-slider testimonials-slider" data-animation="cross" data-duration="500" data-infinite="1" data-hide-arrows="1" data-easing="ease-in-out">
 				<div class="w-slider-mask slidermask">
+                    <div class="w-slide">
+                        <div class="text-testimonials">
+                            <div class="textimonials-say">
+                                Rui did a wonderful job taking a kernel of an idea for the MusicMosh project and turning it into a polished, functional site.<br />
+                                <br/>
+                                The quality of his code is excellent -- it's concise, well-encapsulated, and easy to understand.<br />
+                                <br />
+                                He has shown great skill in using the Rails framework.<br />
+                                <br />
+                                Rui also has excellent communication abilities, has contributed valuable ideas to the project, and has proven himself to be not just a skilled developer but also an important partner on the project.<br />
+                            </div>
+                            <div class="testimonials-name">Dan McCormick, <a href="http://www.musicmosh.com">MusicMosh</a></div>
+                        </div>
+                    </div>
 					<div class="w-slide">
 						<div class="text-testimonials">
 							<div class="textimonials-say">
