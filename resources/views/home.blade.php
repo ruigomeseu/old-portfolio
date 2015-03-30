@@ -135,7 +135,7 @@
 				<a class="w-inline-block portfolio-photo portfolio-2" href="http://blog.ruigomes.me/portfolio-cetasoft-restful-api/" style="background-image: url('images/cetasoft.png');">
 					<div class="portfolio-photo-overlay">
 						<div class="portfolio-tittle">CETA Software REST API</div>
-						<div class="portfolio-subtittle">A RESTful API developed for private use</div>
+						<div class="portfolio-subtittle">A RESTful API developed for a software company in the media industries</div>
 					</div>
 				</a>
 			</div>
