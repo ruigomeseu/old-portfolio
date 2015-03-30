@@ -35,17 +35,25 @@ class HomeController extends Controller {
 
 	public function contact(SendMessageRequest $request)
 	{
-		$name = $request->input('name');
-		$subject = $request->input('subject');
-		$email = $request->input('email');
+        $recaptcha = new \ReCaptcha\ReCaptcha($_ENV['RECAPTCHA_SECRET']);
+        $resp = $recaptcha->verify($request->input('g-recaptcha-response'), $request->ip());
 
-		\Mail::send('emails.contact', ['text' => $request->input('message')], function($message) use ($name, $subject, $email)
-		{
-			$message->from($email, $name);
-			$message->to(\Config::get('social.email'))->subject($subject);
-		});
+        if ($resp->isSuccess()) {
+            $name = $request->input('name');
+            $subject = $request->input('subject');
+            $email = $request->input('email');
 
-		return redirect('/#contact')->with('message', "Your message was sent. I'll get back to you as soon as possible");
+            \Mail::send('emails.contact', ['text' => $request->input('message')], function($message) use ($name, $subject, $email)
+            {
+                $message->from($email, $name);
+                $message->to(\Config::get('social.email'))->subject($subject);
+            });
+
+            return redirect('/#contact')->with('message', "Your message was sent. I'll get back to you as soon as possible");
+        } else {
+            return back()->withErrors($resp->getErrorCodes());
+        }
+
 	}
 
 }

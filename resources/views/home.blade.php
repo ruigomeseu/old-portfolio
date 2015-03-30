@@ -321,6 +321,8 @@
 					{!! Form::label('message', null, ['class' => 'field-label']) !!}
 					{!! Form::textarea('message', Input::old('message'), ['class' => 'w-input text-area', 'rows' => '5']) !!}
 
+                    <div class="g-recaptcha" data-sitekey="6LdGkAQTAAAAAHPtpR59VFoVPsfooJ_EhP4UDoPe"></div>
+
 					{!! Form::submit('Send Message', ['class' => 'w-button submit-button']) !!}
 
 					{!! Form::close() !!}
