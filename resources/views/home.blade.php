@@ -181,20 +181,34 @@
 			<div class="hero-line"></div>
 			<div class="w-slider testimonials-slider" data-animation="cross" data-duration="500" data-infinite="1" data-hide-arrows="1" data-easing="ease-in-out">
 				<div class="w-slider-mask slidermask">
-                    <div class="w-slide">
-                        <div class="text-testimonials">
-                            <div class="textimonials-say">
-                                Rui did a wonderful job taking a kernel of an idea for the MusicMosh project and turning it into a polished, functional site.<br />
-                                <br/>
-                                The quality of his code is excellent -- it's concise, well-encapsulated, and easy to understand.<br />
-                                <br />
-                                He has shown great skill in using the Rails framework.<br />
-                                <br />
-                                Rui also has excellent communication abilities, has contributed valuable ideas to the project, and has proven himself to be not just a skilled developer but also an important partner on the project.<br />
-                            </div>
-                            <div class="testimonials-name">Dan McCormick, <a href="http://www.musicmosh.com">MusicMosh</a></div>
-                        </div>
-                    </div>
+					<div class="w-slide">
+						<div class="text-testimonials">
+							<div class="textimonials-say">
+								In my search for Laravel 5 skills for an entire re-platform of studentrecipes.com I was fortunate enough to be introduced to Rui.<br />
+								He quickly understood our requirements and gave me confidence in his ability early on by asking the right questions and making constructive suggestions on improving the server side aspect of the product.<br />
+								<br />
+								As as developer myself it was important I could understand the code so I could make changes and add new features independently post launch.<br />
+								Both the architecture and code quality enable me to do this with ease. Accurate estimates up front and on-going communication make dealing with Rui a positive experience from a business point of view also.<br />
+								<br />
+								I'll be sure to use Rui again for a second phase and other future projects.<br />
+							</div>
+							<div class="testimonials-name">James Bailey, <a href="https://studentrecipes.com/">Student Recipes</a></div>
+						</div>
+					</div>
+					<div class="w-slide">
+						<div class="text-testimonials">
+							<div class="textimonials-say">
+								Rui did a wonderful job taking a kernel of an idea for the MusicMosh project and turning it into a polished, functional site.<br />
+								<br/>
+								The quality of his code is excellent -- it's concise, well-encapsulated, and easy to understand.<br />
+								<br />
+								He has shown great skill in using the Rails framework.<br />
+								<br />
+								Rui also has excellent communication abilities, has contributed valuable ideas to the project, and has proven himself to be not just a skilled developer but also an important partner on the project.<br />
+							</div>
+							<div class="testimonials-name">Dan McCormick, <a href="http://www.musicmosh.com">MusicMosh</a></div>
+						</div>
+					</div>
 					<div class="w-slide">
 						<div class="text-testimonials">
 							<div class="textimonials-say">
